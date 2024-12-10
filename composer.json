@@ -1,13 +1,15 @@
 {
-  "name": "robpie-de/php-sweph",
-  "description": "PHP wrapper for Swiss Ephemeris",
+  "name": "php-sweph/php-sweph",
+  "description": "PHP wrapper for the Swiss Ephemeris library",
   "type": "library",
-  "autoload": {
-    "psr-4": {
-      "phpSweph\\": "src/"
-    }
-  },
   "require": {
     "php": ">=7.0"
-  }
+  },
+  "autoload": {
+    "psr-4": {
+      "Sweph\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
